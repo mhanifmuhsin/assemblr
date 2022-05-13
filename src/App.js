@@ -84,22 +84,22 @@ function App() {
             <div className="flex flex-col justify-center">
               <Content2 />
               <div className="text-center py-5 px-3 bottom-0  rounded-sm shadow-md">
-                <div className="text-sm">Brush Crash White</div>
-                <div className="text-xs">IDR 1.200.000</div>
+                <div className="text-sm">Drop Type White</div>
+                <div className="text-xs">IDR 3.200.000</div>
               </div>
             </div>
             <div className="flex flex-col justify-center">
               <Content />
               <div className="text-center py-5 px-3 bottom-0  rounded-sm shadow-md">
-                <div className="text-sm">Brush Crash White</div>
+                <div className="text-sm">Brush Crash Blue</div>
                 <div className="text-xs">IDR 1.200.000</div>
               </div>
             </div>
             <div className="flex flex-col justify-center">
               <Content2 />
               <div className="text-center py-5 px-3 bottom-0  rounded-sm shadow-md">
-                <div className="text-sm">Brush Crash White</div>
-                <div className="text-xs">IDR 1.200.000</div>
+                <div className="text-sm">Drop Type</div>
+                <div className="text-xs">IDR 2.200.000</div>
               </div>
             </div>
           </div>
