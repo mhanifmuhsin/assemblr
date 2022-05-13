@@ -1,3 +1,8 @@
+import Content from "./components/Content";
+import Content1 from "./components/Content1";
+import Content2 from "./components/Content2";
+import Content3 from "./components/Content3";
+
 function App() {
   return (
     <div className="bg-slate-800 p-6">
@@ -6,16 +11,28 @@ function App() {
           <header className="flex flex-col sm:flex-row items-center justify-between py-6 relative">
             <h3 className="text-2xl font-bold text-blue-900">Wudo</h3>
             <nav className="hidden md:flex text-lg">
-              <a href="#" className="text-gray-800 hover:text-orange-300 py-3 px-6">
+              <a
+                href="#"
+                className="text-gray-800 hover:text-orange-300 py-3 px-6"
+              >
                 Home
               </a>
-              <a href="#" className="text-gray-800 hover:text-orange-300 py-3 px-6">
+              <a
+                href="#"
+                className="text-gray-800 hover:text-orange-300 py-3 px-6"
+              >
                 Furniture
               </a>
-              <a href="#" className="text-gray-800 hover:text-orange-300 py-3 px-6">
+              <a
+                href="#"
+                className="text-gray-800 hover:text-orange-300 py-3 px-6"
+              >
                 Product
               </a>
-              <a href="#" className="text-gray-800 hover:text-orange-300 py-3 px-6">
+              <a
+                href="#"
+                className="text-gray-800 hover:text-orange-300 py-3 px-6"
+              >
                 Store
               </a>
               <a
@@ -31,7 +48,7 @@ function App() {
               <span className="w-5 h-px mb-1 bg-orange-500"></span>
             </button>
           </header>
-          <main className="flex flex-col-reverse sm:flex-row jusitfy-between items-center py-12">
+          <main className="flex flex-col-reverse sm:flex-row jusitfy-between items-center">
             <div className="sm:w-2/5 flex flex-col items-center sm:items-start text-center sm:text-left">
               <h1 className="text-6xl font-bold leading-none tracking-wide mb-2">
                 Exotic minimal
@@ -54,9 +71,42 @@ function App() {
               <img src="/14.jpg" alt="cover" />
             </div>
           </main>
+          <div className="flex my-5 space-x-3">
+            <div className="flex flex-col justify-center">
+              <div>
+                <Content />
+                <div className="text-center py-5 px-3 bottom-0  rounded-sm shadow-md">
+                  <div className="text-sm">Brush Crash White</div>
+                  <div className="text-xs">IDR 1.200.000</div>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col justify-center">
+              <Content2 />
+              <div className="text-center py-5 px-3 bottom-0  rounded-sm shadow-md">
+                <div className="text-sm">Brush Crash White</div>
+                <div className="text-xs">IDR 1.200.000</div>
+              </div>
+            </div>
+            <div className="flex flex-col justify-center">
+              <Content />
+              <div className="text-center py-5 px-3 bottom-0  rounded-sm shadow-md">
+                <div className="text-sm">Brush Crash White</div>
+                <div className="text-xs">IDR 1.200.000</div>
+              </div>
+            </div>
+            <div className="flex flex-col justify-center">
+              <Content2 />
+              <div className="text-center py-5 px-3 bottom-0  rounded-sm shadow-md">
+                <div className="text-sm">Brush Crash White</div>
+                <div className="text-xs">IDR 1.200.000</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+    // <Content/>
   );
 }
 
